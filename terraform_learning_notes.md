@@ -195,7 +195,7 @@ terraform {
 ### How Terraform Updates Infrastructure
 - **Goal**: Keep actual state same as desired state
 - **State File**: Actual state resides in terraform.tfstate file
-- **Process**: Terraform compares current state with desired configuration
+- **Process**: Terraform compares current state(terraform.tfstate file) with desired configuration
 - **Updates**: Only changes the resources that need modification
 
 ### Terraform State File
